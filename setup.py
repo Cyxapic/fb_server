@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 setup(
     name="Finger balabolka Server",
-    version='1.0.3',
+    version='1.0.7',
     description="A alfa project of flood chat.",
     long_description="A flood chat project on ptyhon 3 and PyQt5",
     author="Artem Sukharenko",
@@ -19,7 +19,8 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     keywords='Flood chat for lern',
-    packages=['fb_server'],
+    packages=find_packages('fb_server'),
+    package_dir={'':'fb_server'},
     install_requires=[
         "certifi==2017.11.5",
         "chardet==3.0.4",
@@ -53,7 +54,7 @@ setup(
     },
     entry_points={
          'console_scripts': [
-            'fb_server=fb_server:main',
+            'finger_server=fb_server.main:main',
         ],
     },
 )
