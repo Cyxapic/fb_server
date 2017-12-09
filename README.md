@@ -25,13 +25,9 @@
 * in console -> finger_server
 
 * IF YOU DON'T WANT TO CREATE virtual environment (for some reason ;))
-    * just create simple script (e.g. simple_server.py):
-    ```
-        from fb_serevr.main import main
-        main()
-    ```
-    * and run >> python3 simple_server.py
-
+    * Just pip install and:
+        * on windows: run cmd >> python3 <your python way>/scripts/finger_server
+        * on linux: in console >> finger_server
 
 ### TO DO ###
 * LEARN!
