@@ -3,9 +3,9 @@ import logging
 
 from datetime import datetime
 
-from utils import log_config
-from protocol.msg_handler import MessageHandler
-from db.managers import (ClientManager, ClientHistoryManager,
+from fb_server.utils import log_config
+from fb_server.protocol.msg_handler import MessageHandler
+from fb_server.db.managers import (ClientManager, ClientHistoryManager,
                          ClientContactsManager)
 
 logger = logging.getLogger("server_log")

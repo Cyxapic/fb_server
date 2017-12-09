@@ -4,9 +4,9 @@
 
 import logging
 
-from core.server import Server
-from utils import log_config
-from utils.utils import get_params
+from fb_server.core.server import Server
+from fb_server.utils import log_config
+from fb_server.utils.utils import get_params
 
 
 logger = logging.getLogger("server_log")

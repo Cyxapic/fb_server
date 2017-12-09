@@ -4,8 +4,8 @@ import json
 import logging
 import select
 
-from utils import log_config
-from db.managers import ClientManager, ClientHistoryManager
+from fb_server.utils import log_config
+from fb_server.db.managers import ClientManager, ClientHistoryManager
 from .handler import load_msg, ACTIONS
 
 

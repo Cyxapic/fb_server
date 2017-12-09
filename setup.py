@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Finger balabolka Server",
-    version='1.0.8',
+    version='1.0.19',
     description="A alfa project of flood chat.",
     long_description="A flood chat project on ptyhon 3 and PyQt5",
     author="Artem Sukharenko",
@@ -19,8 +19,8 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     keywords=['Flood chat server', 'chat PyQt 5', 'server jim chat'],
-    packages=find_packages('fb_server'),
-    package_dir={'':'fb_server'},
+    package_dir={'': 'src'},
+    packages=find_packages('src'),
     install_requires=[
         "SQLAlchemy==1.1.14",
     ],

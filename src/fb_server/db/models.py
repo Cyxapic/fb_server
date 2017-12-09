@@ -2,7 +2,7 @@ import logging
 from datetime import datetime
 from sqlalchemy import Column, Integer, String, ForeignKey, DateTime
 
-from utils import log_config
+from fb_server.utils import log_config
 from .settings import session, Base
 
 
