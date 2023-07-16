@@ -22,7 +22,7 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages('src'),
     install_requires=[
-        "SQLAlchemy==1.1.14",
+        "SQLAlchemy==1.3.0",
     ],
     extras_require={
         'dev': ['flake8==3.4.1',],
